@@ -1,9 +1,8 @@
 public class Division {
-
-    public static void main(String[] args) {
-        Opt opt = new Opt();
-        double result = opt.div();
-        System.out.println(result);
+    public double div() {
+        double num1 = Math.random();
+        double num2 = Math.random();
+        double r = num1 / num2;
+        return r;
     }
-
 }
